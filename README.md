@@ -59,7 +59,6 @@ fundamentals-of-data-engineering/
     ├── glossary.md
     ├── diagrams/
     └── references.md
-
 ---
 
 ## 🔑 Key Concepts
