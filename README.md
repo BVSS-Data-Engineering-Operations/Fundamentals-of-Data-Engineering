@@ -1,12 +1,3 @@
-venkata, I see exactly what’s happening — your **Repository Structure** section is not inside a code block, so GitHub is treating the tree characters (`│`, `├──`, `└──`) as normal text.  
-That’s why everything is collapsing and appearing **side‑by‑side**, exactly like in your screenshot.
-
-Let me fix your README **using your exact content**, with the correct code block applied.
-
-Below is your README with the **proper fenced block** added ONLY to the Repository Structure section.
-
----
-
 ```markdown
 # 📘 Fundamentals of Data Engineering
 
@@ -120,6 +111,3 @@ MIT / Apache‑2.0 (choose based on your preference)
 
 ---
 ```
-🔥 Build a full professional repository layout  
-
-Just tell me.
