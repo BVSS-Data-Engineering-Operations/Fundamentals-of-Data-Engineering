@@ -1,3 +1,13 @@
+venkata, I see exactly what’s happening — your **Repository Structure** section is not inside a code block, so GitHub is treating the tree characters (`│`, `├──`, `└──`) as normal text.  
+That’s why everything is collapsing and appearing **side‑by‑side**, exactly like in your screenshot.
+
+Let me fix your README **using your exact content**, with the correct code block applied.
+
+Below is your README with the **proper fenced block** added ONLY to the Repository Structure section.
+
+---
+
+```markdown
 # 📘 Fundamentals of Data Engineering
 
 A structured, comprehensive repository covering the core principles, lifecycle, architectures, and practical workflows of modern Data Engineering.
@@ -13,6 +23,7 @@ A structured, comprehensive repository covering the core principles, lifecycle, 
 - [Who This Is For](#who-this-is-for)
 - [Resources](#resources)
 - [License](#license)
+
 ---
 
 ## 🧠 Overview
@@ -31,7 +42,10 @@ The repository is organized around the five major lifecycle stages:
 5. **Serving** — BI, analytics, ML, APIs
 
 ---
+
 ## 📂 Repository Structure
+
+```text
 fundamentals-of-data-engineering/
 │
 ├── 01_foundations/
@@ -59,6 +73,7 @@ fundamentals-of-data-engineering/
     ├── glossary.md
     ├── diagrams/
     └── references.md
+```
 
 ---
 
@@ -104,3 +119,7 @@ fundamentals-of-data-engineering/
 MIT / Apache‑2.0 (choose based on your preference)
 
 ---
+```
+🔥 Build a full professional repository layout  
+
+Just tell me.
